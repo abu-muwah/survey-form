@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,600&family=PT+Sans+Caption:wght@400;700&family=Source+Serif+Pro:wght@200;300;400;600;700;900&display=swap');
+
+body {
+    background-image: url(/img/jefferson-santos-9SoCnyQmkzI-unsplash.jpg);
+    background-color: rgb(44, 44, 44);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    font-family: PT Sans Caption;
+}
+
+section {
+    width: 50%;
+    margin: auto;
+}
+
+header {
+    text-align: center;
+}
+
+#title {
+    font-size: 35px;
+    margin-bottom: 0;
+    color: #c9c9c9;
+}
+
+#discription {
+    color: #c9c9c9a9;
+}
+
+#survey-form {
+    background: #4f565e41;
+    border-radius: 5px;
+    padding: 24px;
+}
+
+.form-group {
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.label {
+    display: block;
+    width: 50%;
+    color: #c9c9c9a9;
+}
+
+.input {
+    background: none;
+    background-color: #8897a541;  
+    border-radius: 5px;
+    border: none;
+    margin: 5px 0;
+    padding: 10px;
+    color: #e2eaf1da;
+    display: flex;
+    resize: none;
+    outline: none;
+}
+
+.input-margin {
+    margin-right: 10px;
+}
+
+#submit {
+    background: none;
+    background-color: #8897a541;  
+    border-radius: 5px;
+    border: none;
+    margin: 5px;
+    padding: 10px;
+    color: #e2eaf1da;
+}
+
+option {
+    color: rgb(92, 87, 87);
+}
+
+.submit-form {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.d-flex {
+    display: flex;
+}

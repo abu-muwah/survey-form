@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <section class="container">
+        <header>
+            <h1 id="title">Netlinks Survey Form</h1>
+            <hr class="line-h1-p">
+            <p id="discription">Fill the survey form to help us help you better</p>
+        </header>
+        <form action="" id="survey-form">
+            <div class="form-group">
+                <label for="name" class="label" id="name-label">Enter your full-name</label>
+                <input type="text" class="input" autocomplete="off" id="name" required placeholder="Name">
+            </div>
+            <div class="form-group">
+                <label for="email" class="label" id="email-label">Enter your email address</label>
+                <input type="email" class="input" autocomplete="off" id="email" required placeholder="Email">
+            </div>
+            <div class="form-group">
+                <label for="age" class="label" id="number-label">How old are you?</label>
+                <input type="number" min="18" max="70" class="input" id="number" placeholder="Age"> 
+            </div>
+            <div class="form-group">
+                <label for="dropdown" class="label">Select your field</label>
+                <select name="dropdown" id="dropdown" class="input">
+                    <option value="Internship">Internship</option>
+                    <option value="full-time">Full time job</option>
+                    <option value="part-time">Part time job</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="Radio" class="label">Would you like to join us?</label>
+                <div class="d-flex">
+                    <input type="radio" name="radio-buttons" class="input input-margin" value="Yes">
+                    <label for="Yes" class="label">Yes</label>
+                </div>
+                <div class="d-flex">
+                    <input type="radio" name="radio-buttons" class="input input-margin" value="No">
+                    <label for="No" class="label">No</label>
+                </div>
+                <div class="d-flex">
+                    <input type="radio" name="radio-buttons" class="input input-margin" value="Not sure">
+                    <label for="Not sure" class="label">Not sure</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="checkboxes" class="label">Educational level:</label>
+                <div class="d-flex">
+                    <input type="checkbox" value="checkboxes" class="input input-margin">
+                    <label for="educational-level" class="label">Diploma</label>
+                </div>
+                <div class="d-flex">
+                    <input type="checkbox" value="checkboxes" class="input input-margin">
+                    <label for="educational-level" class="label">Bachelor</label>
+                </div>
+                <div class="d-flex">
+                    <input type="checkbox" value="checkboxes" class="input input-margin">
+                    <label for="educational-level" class="label">Master</label>
+                </div>
+                <div class="d-flex">
+                    <input type="checkbox" value="checkboxes" class="input input-margin">
+                    <label for="educational-level" class="label">Doctoral</label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="textarea" class="label" id="textarea-label">You can leave your comment below:</label>
+                <textarea name="message" class="input" id="textarea" cols="30" rows="10" placeholder="Message"></textarea>
+            </div>
+            <div class="submit-form">
+                <input type="submit" id="submit">
+            </div>
+        </form>
+    </section>
+</body>
+</html>
