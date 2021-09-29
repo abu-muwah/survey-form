@@ -40,6 +40,10 @@ header {
     flex-direction: column;
 }
 
+::placeholder {
+    color: #c9c9c9a9;
+}
+
 .label {
     display: block;
     width: 50%;
@@ -71,6 +75,12 @@ header {
     margin: 5px;
     padding: 10px;
     color: #e2eaf1da;
+    cursor: pointer;
+    transition: all, 0.2s;
+}
+
+#submit:hover {
+    background-color: #e2eaf12a;
 }
 
 option {
